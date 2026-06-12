@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MessageManager {
 
     private Message[] sentMessages = new Message[100];
-    private Message[] disregardedMessages = new Message[100];
+    private Message[] disregardedMessages = new Message[100]
     private Message[] storedMessages = new Message[100];
 
     private String[] messageIDs = new String[100];
