@@ -14,7 +14,7 @@ public class Message {
     }
 
     public String getMessageID() { return messageID; }
-    public String getRecipient() { return recipient; }
+    public String getRecipient() { return recipient; 
     public String getMessageText() { return messageText; }
     public String getMessageHash() { return messageHash; }
 
