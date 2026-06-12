@@ -7,7 +7,7 @@ public class UserManager {
     private String storedCell;
     private String firstName;
     private String lastName;
-    Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in)
 
     public boolean checkUserName(String username) {
         return username.contains("_") && username.length() <= 5;
